@@ -1,0 +1,124 @@
+/* ========== Global Styles ========== */
+body {
+  margin: 0;
+  font-family: "Poppins", "Segoe UI", Roboto, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* ========== Navbar ========== */
+nav {
+  background-color: #1976d2;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffeb3b;
+}
+
+/* ========== Page Containers ========== */
+.p-6 {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #1976d2;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* ========== Form Styling ========== */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 5px rgba(25, 118, 210, 0.3);
+}
+
+/* ========== Buttons ========== */
+button {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #125ca1;
+}
+
+/* ========== Lists ========== */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+li strong {
+  color: #1976d2;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 600px) {
+  .p-6 {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  nav {
+    font-size: 14px;
+  }
+
+  input,
+  select,
+  button {
+    font-size: 14px;
+  }
+}
